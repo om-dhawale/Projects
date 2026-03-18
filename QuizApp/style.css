@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: #052256;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.container h1 {
+    margin-bottom: 10px;
+    display: inline-block;
+    flex: 1;
+}
+
+.container .QnA-container {
+    margin: 10px 0;
+    height: 250px;
+}
+
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+
+.next-btn {
+    /* margin: 0 auto; */
+    width: 120px;
+    padding: 10px 15px;
+    border: none;
+    font-weight: bold;
+    background: #052256;
+    cursor: pointer;
+    border-radius: 8px;
+    color: #fff;
+    margin: 0 auto;
+    
+}
+
+.restart{
+    
+    padding: 10px 20px;
+    background-color: #ff3a3a;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+
+.question {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.option {
+    padding: 10px;
+    text-align: start;
+    font-size: 1.1rem;
+    border: none;
+    cursor: pointer;
+}
